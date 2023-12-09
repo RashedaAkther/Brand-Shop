@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
-import { Link } from "react-router-dom";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css'; 
+import { Link } from "react-router-dom"; 
 import { useEffect } from "react";
 const BrandCard = ({brand}) => {
     const {img,name,}=brand
